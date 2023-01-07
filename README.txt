@@ -2,7 +2,7 @@ CASE
 
 Ortam: Python Terminal
 
-1- Python dosyası oluşturulacak.(number.py example)
+1- Python dosyası oluşturulacak.(numbers.py example)
 2- Dosya içine json olarak ve array içinde rastgele numaralar yazılacak.
 3- Quicksort Methodu ile aritmetik sıraya dizilecek. 
 4- Validation : Sayı değilse, sadece 1 tane sayı varsa, raise ile hata dönecek.
