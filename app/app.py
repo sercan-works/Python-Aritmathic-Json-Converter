@@ -24,13 +24,17 @@ def sort_numbers():
             checked_numbers.append(number)
         return bool(True)
     
-sort_numbers() 
+    
+try:   
+    sort_numbers()   
+    print('Default___________:',data['numbers'])    
+    # print('Aritmetik sıralı__:\n',json.dumps(sorted(checked_numbers),indent=3))
 
-   
-print('Default___________:',data['numbers'])    
-# print('Aritmetik sıralı__:\n',json.dumps(sorted(checked_numbers),indent=3))
+    quickSort(checked_numbers,0,len(checked_numbers)-1)
+    print('Aritmetik QuickSort sıralı__:\n',json.dumps(sorted(checked_numbers),indent=3))
 
-quickSort(checked_numbers,0,len(checked_numbers)-1)
-print('Aritmetik QuickSort sıralı__:\n',json.dumps(sorted(checked_numbers),indent=3))
+    f.close()
+except:
+    print('Bir hata oluştu')
 
-f.close()
+    
