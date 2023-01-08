@@ -1,7 +1,7 @@
 import json
 from numbers import numbers
 
-from Sort import *
+from sort import *
 
 checked_numbers = []
 
