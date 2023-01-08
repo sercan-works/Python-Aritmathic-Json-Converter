@@ -18,7 +18,7 @@ Kodlar githuba yükklenecek.
 
 
 APP Çalıştırma ................:
-# python App.py
+# python app.py
 
 Test Çalıştırma................:
 # python -m unittest -v test
