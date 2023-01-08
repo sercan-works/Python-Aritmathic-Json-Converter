@@ -12,3 +12,13 @@ UNIT TEST
 1-Unit test standarlarına uygun kod testi yazılacak.
 
 Kodlar githuba yükklenecek.
+
+
+
+
+
+APP Çalıştırma ................:
+# python App.py
+
+Test Çalıştırma................:
+# python -m unittest -v test
