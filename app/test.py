@@ -12,7 +12,7 @@ class TestApp(unittest.TestCase):
         self.numbers = []
                        
     def test_app(self):
-            # print('TEST',sort_numbers(self.numbers))
+            
             self.assertTrue(sort_numbers(self.numbers))
 
           
