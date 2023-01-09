@@ -2,6 +2,7 @@ import unittest
 
 from app import sort_numbers
 
+
 class TestApp(unittest.TestCase):    
     def setUp(self):
         print('- Test verileri hazırlanıyor...')
@@ -11,10 +12,10 @@ class TestApp(unittest.TestCase):
         print('- Test verileri siliniyor...')
         self.numbers = []
                        
-    def test_app(self):
+    def test_app_with_initialValues(self):
             
             self.assertTrue(sort_numbers(self.numbers))
-    def test_app_default(self):        
+    def test_app(self):        
             self.assertTrue(sort_numbers())
 
           
